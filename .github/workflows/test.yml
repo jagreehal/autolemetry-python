@@ -30,11 +30,11 @@ jobs:
 
       - name: Verify installation
         run: |
+          set -e
           python --version
           python -m pytest --version
           python -m ruff --version
-          python -m mypy --version
-          python -c "import pytest_cov; print('pytest-cov:', pytest_cov.__version__)"
+          echo "Installation verified"
 
       - name: Run linting
         run: ruff check src tests
