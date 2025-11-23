@@ -28,14 +28,6 @@ jobs:
       - name: Install dependencies
         run: uv pip install -e ".[dev]"
 
-      - name: Verify installation
-        run: |
-          set -e
-          python --version
-          python -m pytest --version
-          python -m ruff --version
-          echo "Installation verified"
-
       - name: Run linting
         run: ruff check src tests
 
