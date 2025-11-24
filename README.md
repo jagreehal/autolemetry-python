@@ -1,5 +1,15 @@
 # autolemetry
 
+<div align="center">
+
+[![PyPI](https://img.shields.io/pypi/v/autolemetry.svg)](https://pypi.org/project/autolemetry/)
+
+[![Python](https://img.shields.io/pypi/pyversions/autolemetry.svg)](https://pypi.org/project/autolemetry/)
+
+[![License](https://img.shields.io/github/license/jagreehal/autolemetry-python.svg)](./LICENSE)
+
+</div>
+
 Ergonomic OpenTelemetry instrumentation for Python.
 
 - One-line initialization with `init()` and `@trace` decorator
@@ -1023,7 +1033,7 @@ Shutdown ensures:
 
 Production ready. All core features implemented and tested.
 
-**Version:** 0.1.0  
+**Version:** 0.1.1  
 **Python:** 3.10+  
 **License:** MIT
 
